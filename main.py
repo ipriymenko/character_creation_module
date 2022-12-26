@@ -34,7 +34,6 @@ def defence(char_name: str, char_class: str) -> str:
 
 
 def special(char_name: str, char_class: str) -> str:
-
     if char_class == 'warrior':
         spec_title = 'Выносливость'
         spec_value = 80 + 25
